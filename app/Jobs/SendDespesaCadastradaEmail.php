@@ -2,7 +2,7 @@
 
 namespace App\Jobs;
 
-use App\Mail\DespesaCadastrada; // Certifique-se de que este namespace está correto
+use App\Mail\DespesaCadastrada;
 use App\Models\Usuario;
 use App\Models\Despesa;
 use Illuminate\Bus\Queueable;
@@ -10,7 +10,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Support\Facades\Mail; // Importar a facade Mail
+use Illuminate\Support\Facades\Mail;
 
 class SendDespesaCadastradaEmail implements ShouldQueue
 {
